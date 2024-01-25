@@ -9,7 +9,7 @@ public class Camion {
 	private int anio;
 	
 	
-	public Camion(private String nombreCamion, String matricula, private String marca, private String modelo, int anio) {
+	public Camion(String nombreCamion, String matricula, String marca, String modelo, int anio) {
 		this.nombreCamion = nombreCamion;
 		this.matricula = matricula;
 		this.marca = marca;
